@@ -33,7 +33,7 @@ import {Subscription} from "rxjs";
     `],
     template:`
     <div class="container">
-    <h1>Routing demo ${VERSION.full}, Router: ${rv.full} (<a href="https://github.com/eyalvardi/routerOutletDemo" target="_blank">code</a>)</h1>
+    <h1>Routing demo ${VERSION.full}, Router: ${rv.full} (<a href="https://github.com/eyalvardi/router-outlet-demo" target="_blank">code</a>)</h1>
     <div>url: {{router.url}}</div>
     <url-tree [source]="urlTree.root"></url-tree>
     <nav>
